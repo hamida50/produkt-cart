@@ -1,0 +1,15 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+}
+.product-card {
+  background-color: #F7F7FA
+}
