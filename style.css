@@ -41,12 +41,6 @@ body {
   height: auto;
   margin: 0 auto 20px;
 }
-h1 {
-  font-size: 40px;
-  font-style: normal;
-  line-height: 48px;
-  font-weight: 700;
-}
 .product-card h2 {
   font-size: 20px;
   line-height: 27px;
@@ -97,15 +91,10 @@ h1 {
   justify-content: space-between;
   width: 290px;
 }
-.price-block > div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 290px;
-}
 .product-card button:hover {
   background-color: #555555;
 }
+
 .product-category {
   white-space: nowrap;
   display: inline-block;
@@ -119,23 +108,5 @@ h1 {
 .product-description {
   font-size: 13px;
   line-height: 18px;
-  font-weight: 400;
-}
-.footer {
-  width: 290px;
-  height: 24px;
-  color: #515076;
-}
-.text {
-  width: 846px;
-  height: 78px;
-  opacity: 1;
-}
-.card-title {
-  color: #6a36cb;
-}
-.main-text.price {
-  color: #515076;
-  font-size: 20px;
   font-weight: 400;
 }
