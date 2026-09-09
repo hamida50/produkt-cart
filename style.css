@@ -90,7 +90,6 @@ body {
 .product-card button:hover {
   background-color: #555555;
 }
-
 .product-category {
   white-space: nowrap;
   display: inline-block;
