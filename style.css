@@ -57,13 +57,6 @@ body {
   line-height: 24px;
   letter-spacing: 0%;
 }
-.product-card span {
-  font-size: 13px;
-  line-height: 24px;
-  letter-spacing: 0%;
-  color: #515076;
-  vertical-align: middle;
-}
 .main-text-compound {
   color: #515076;
   font-size: 20px;
@@ -78,14 +71,12 @@ body {
   background-color: #333333;
   color: white;
 }
-.product-price {
-  margin-top: 25px;
-  font-size: 20px;
-}
 .price-block {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 25px;
+  font-size: 20px;
 }
 .product-card button:hover {
   background-color: #555555;
@@ -94,6 +85,7 @@ body {
   white-space: nowrap;
   display: inline-block;
   text-transform: uppercase;
+  font-size: 13px;
 }
 .product-title {
   font-size: 20px;
