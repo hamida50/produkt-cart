@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -9,6 +10,7 @@ body {
   background-image: url("./images/bg.png");
   background-repeat: repeat;
 }
+
 .title {
   font-size: 70px;
   font-weight: 400;
@@ -17,16 +19,28 @@ body {
   margin: 40px 0 60px;
   color: #515076;
 }
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  max-width: 1110px;
+  max-width: 1100px;
   margin: 0 auto;
   list-style: none;
   padding: 0;
 }
+
+.product-card__compound-list {
+  margin-bottom: 15px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.product-card__compound-item {
+  list-style-type: square;
+}
+
 .product-card {
   width: 340px;
   text-align: left;
@@ -35,64 +49,75 @@ body {
   border: 1px solid #dddddd;
   box-shadow: 0 2px 15px rgba(81, 80, 118, 0.15);
 }
-.product-image {
+
+.product-card__image {
   display: block;
   width: 290px;
   height: auto;
   margin: 0 auto 20px;
 }
+
 .product-card h2 {
   font-size: 20px;
   line-height: 27px;
   font-weight: 700;
   color: #515076;
 }
+
 .product-card p {
   font-size: 13px;
   color: #555555;
 }
+
 .product-card b {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0%;
 }
-.main-text-compound {
+.product-card__compound {
   color: #515076;
-  font-size: 20px;
+  font-size: 13px;
   font-weight: 400;
 }
+
 .product-card ul {
   margin-bottom: 15px;
   text-align: left;
   padding-left: 20px;
 }
+
 .product-card button {
   background-color: #333333;
   color: white;
 }
-.price-block {
+
+.product-card__price-block {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 25px;
   font-size: 20px;
 }
+
 .product-card button:hover {
   background-color: #555555;
 }
-.product-category {
+
+.product-card__category {
   white-space: nowrap;
   display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
 }
-.product-title {
+
+.product-card__title {
   font-size: 20px;
   line-height: 27px;
   font-weight: 700;
 }
-.product-description {
+
+.product-card__description {
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
