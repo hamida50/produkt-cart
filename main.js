@@ -42,7 +42,9 @@ function openGoogle() {
   }
 }
 // вывод текста через консоль
-const outputConsoleLogButton = document.getElementById("output-console-log-button");
+const outputConsoleLogButton = document.getElementById(
+  "output-console-log-button",
+);
 outputConsoleLogButton.addEventListener("click", () => {
   outputConsoleLog("дз №6");
 });
