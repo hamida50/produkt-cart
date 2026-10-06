@@ -1,6 +1,3 @@
-outputConsoleLogButton.addEventListener("click", () => {
-  outputConsoleLog("homework-7.js");
-});
 // Задание 1
 function showWeather(city, temperature) {
   console.log(
@@ -28,15 +25,15 @@ const productPrice = 500;
 
 function buyProduct(budget) {
   if (budget >= productPrice) {
-    console.log(`${product} приобретен. Спасибо за покупку!`);
+    console.log(`${product} Товар приобретен. Спасибо за покупку!`);
   } else {
     const difference = productPrice - budget;
     console.log(`Вам не хватает ${difference} $, пополните баланс.`);
   }
 }
 
-buyProduct(300); // бюджет не хватает на продукт.Пополните баланс.s
-buyProduct(600); // бюджет хватает на продукт. Крем приобретен. Спасибо за покупку!
+buyProduct(300); // Бюджет не хватает на продукт.Пополните баланс.
+buyProduct(600); // Крем приобретен. Спасибо за покупку!
 
 // Задание 4
 function sayHello() {
