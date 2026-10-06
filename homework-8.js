@@ -11,7 +11,6 @@ const user = {
   city: "Cairo",
   relationshipStatus: "single",
 };
-
 console.log(user);
 
 // Задание 2. Объект автомобиля
@@ -24,7 +23,6 @@ const car = {
   transmission: "automatic",
   owner: user,
 };
-
 console.log(car);
 
 // Задание 3. Добавляем максимальную скорость
@@ -36,7 +34,6 @@ function addMaxSpeed(car) {
 }
 
 addMaxSpeed(car);
-
 console.log(car);
 function addMaxSpeed(car) {
   if (!("maxSpeed" in car)) {
@@ -56,7 +53,6 @@ getProperty(car, "maxSpeed");
 // Задание 5. Массив продуктов
 
 const products = ["Крем", "Масло", "Шампунь", "Мыло", "Бальзам"];
-
 console.log(products);
 
 // Задание 6. Массив книг
@@ -98,7 +94,6 @@ const books = [
     genre: "исламская литература",
   },
 ];
-
 console.log(books);
 
 // Задание 7. Добавляем ещё одну книгу
@@ -110,7 +105,6 @@ books.push({
   coverColor: "зелёный",
   genre: "сборник хадисов",
 });
-
 console.log(books);
 
 // Задание 8. Второй массив книг и объединение массивов
@@ -131,9 +125,7 @@ const additionalBooks = [
     genre: "сборник хадисов",
   },
 ];
-
 const allBooks = books.concat(additionalBooks);
-
 console.log(allBooks);
 
 // Задание 9. Добавляем свойство isRare
@@ -146,11 +138,9 @@ function addIsRare(books) {
     };
   });
 }
-
 const booksWithRare = addIsRare(allBooks);
-
 console.log(booksWithRare);
 
 // Задание 10. Выводим результат
 
-console.log("Книги с признаком редкости:", booksWithRare);
+console.log("Базовые фундаментальные книги:", booksWithRare);
