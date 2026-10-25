@@ -53,12 +53,13 @@ function renderProducts(productsToRender) {
   });
 }
 function getProductsCount() {
-  let count = Number(prompt("Сколько карточек отобразить? От 1 до 5"));
+  const count = Number(prompt("Сколько карточек отобразить? От 1 до 5"));
 
   if (count >= 1 && count <= 5 && Number.isInteger(count)) {
     return count;
   }
 
-  return 5;
+  alert("Введите целое число от 1 до 5");
+  return getProductsCount();
 }
 renderProducts(products.slice(0, getProductsCount()));
