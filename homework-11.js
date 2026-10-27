@@ -42,6 +42,7 @@ registrationForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
   if (!registrationForm.checkValidity()) {
+    alert("Регистрация отклонена: форма заполнена неправильно!");
     registrationForm.reportValidity();
     return;
   }
