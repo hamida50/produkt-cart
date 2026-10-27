@@ -65,8 +65,10 @@ registrationForm.addEventListener("submit", (event) => {
     password: password,
     createdOn: new Date(),
   };
+  const userWithoutPassword = { ...user };
+  delete userWithoutPassword.password;
+  console.log(userWithoutPassword);
 
-  console.log(user);
   alert("Регистрация прошла успешно. Поздравляем!");
   registrationOverlay.classList.remove("modal-showed");
   registrationModal.classList.remove("modal-showed");
