@@ -1,9 +1,10 @@
+import "./homework-11.js";
 import "./homework-12.js";
 
 import Modal from "./Modal.js";
 import Form from "./Form.js";
 
-import "./homework-11.js";
+import "./homework-13.js";
 
 //все карточки
 alert("MAIN.JS РАБОТАЕТ"); //выводим сообщение в алерте, чтобы убедиться, что файл main.js подключен
