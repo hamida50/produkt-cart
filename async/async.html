@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>
+      Асинхронная загрузка пользователей
+    </title>
+  </head>
+  <body>
+    <h1>Список пользователей</h1>
+    <div id="message">
+      Данные загружаются
+    </div>
+
+    <div id="users-container"></div>
+
+    <div>
+      <button id="delete-all">
+        Удалить все карточки
+      </button>
+      <button id="get-all">
+        Получить всех пользователей
+      </button>
+    </div>
+    <script
+      type="module"
+      src="./async.js"
+    ></script>
+  </body>
+</html>
