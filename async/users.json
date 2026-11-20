@@ -1,0 +1,40 @@
+
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aisha",
+      "surname": "Nur",
+      "email": "aisha@mail.com",
+      "age": 25
+    },
+    {
+      "id": 2,
+      "name": "Ahmad",
+      "surname": "Nur",
+      "email": "ahmad@mail.com",
+      "age": 30
+    },
+    {
+      "id": 3,
+      "name": "Muhammad",
+      "surname": "Nur",
+      "email": "muhammad@mail.com",
+      "age": 22
+    },
+    {
+      "id": 4,
+      "name": "Mariyam",
+      "surname": "Nur",
+      "email": "mariyam@mail.com",
+      "age": 28
+    },
+    {
+      "id": 5,
+      "name": "Abdurahman",
+      "surname": "Nur",
+      "email": "abdurahman@mail.com",
+      "age": 35
+    }
+  ]
+}
